@@ -14,7 +14,7 @@ try:
 
     # === УНИКАЛЬНЫЕ СЕЛЕКТОРЫ (пример, проверь в инспекторе страницы и при необходимости поправь) ===
     # Эти селекторы корректны для классической версии задания:
-    browser.find_element(By.CSS_SELECTOR, "div.first_block .first").send_keys("Ivan")
+    browser.find_element(By.CSS_SELECTOR, "div.first_block .first").send_keys("Alex")
     browser.find_element(By.CSS_SELECTOR, "div.first_block .second").send_keys("Petrov")
     browser.find_element(By.CSS_SELECTOR, "div.first_block .third").send_keys("test@example.com")
     # ========================================================================================
